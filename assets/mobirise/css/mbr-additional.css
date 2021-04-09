@@ -966,7 +966,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-stUoOXaDAC button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1097,58 +1097,47 @@ a {
 .cid-stUsmEX8Wd .mbr-text {
   text-align: left;
 }
-.cid-stUt5k6K8z {
-  padding-top: 6rem;
+.cid-su5V4Vgymy {
+  padding-top: 4rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-stUt5k6K8z img,
-.cid-stUt5k6K8z .item-img {
-  width: 100%;
-}
-.cid-stUt5k6K8z .item:focus,
-.cid-stUt5k6K8z span:focus {
-  outline: none;
-}
-.cid-stUt5k6K8z .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-.cid-stUt5k6K8z .item-wrapper {
-  position: relative;
-  border-radius: 4px;
-  background: #000000;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-stUt5k6K8z .item-wrapper .item-content {
-    padding: 2rem;
-  }
+.cid-su5V4Vgymy .content-wrapper {
+  background: #fafafa;
 }
 @media (max-width: 991px) {
-  .cid-stUt5k6K8z .item-wrapper .item-content {
+  .cid-su5V4Vgymy .content-wrapper .row {
+    flex-direction: column-reverse;
+  }
+  .cid-su5V4Vgymy .content-wrapper .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-su5V4Vgymy .content-wrapper {
     padding: 1rem;
   }
 }
-.cid-stUt5k6K8z .mbr-section-btn {
-  margin-top: auto !important;
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-su5V4Vgymy .content-wrapper {
+    padding: 2rem;
+  }
 }
-.cid-stUt5k6K8z .mbr-section-title {
-  color: #232323;
+@media (min-width: 992px) {
+  .cid-su5V4Vgymy .content-wrapper {
+    padding: 5rem 3rem;
+  }
+  .cid-su5V4Vgymy .content-wrapper .text-wrapper {
+    padding-right: 2rem;
+  }
 }
-.cid-stUt5k6K8z .mbr-text,
-.cid-stUt5k6K8z .mbr-section-btn {
+.cid-su5V4Vgymy .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-su5V4Vgymy .mbr-text,
+.cid-su5V4Vgymy .mbr-section-btn {
   text-align: left;
-  color: #ffffff;
-}
-.cid-stUt5k6K8z .item-title {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-stUt5k6K8z .item-subtitle {
-  text-align: center;
 }
 .cid-su482J4vmd {
   padding-top: 2rem;
@@ -1519,7 +1508,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-stUoOXaDAC button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1594,6 +1583,10 @@ a {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #bbbbbb;
+}
+.cid-stUAQ8XlRp .mbr-text,
+.cid-stUAQ8XlRp .link {
+  text-align: left;
 }
 .cid-stUBhVv9sG {
   padding-top: 6rem;
